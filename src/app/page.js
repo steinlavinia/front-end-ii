@@ -5,11 +5,15 @@ export default function Home() {
 		<div className={styles.container}>
 			<h1 className={styles.h1}>Clínica Bem Estar!</h1>
 			<p className={styles.p}>
-				Na Clínica Bem Estar, sua saúde é a nossa prioridade. <br/>Com uma equipe médica especializada e um ambiente acolhedor, oferecemos atendimento humanizado e soluções personalizadas para o seu bem-estar.
+				Na Clínica Bem Estar, sua saúde é a nossa prioridade. 
+				
+				<br/>
+				<br/>Com uma equipe médica especializada e um ambiente acolhedor, oferecemos atendimento humanizado e soluções personalizadas para o seu bem-estar.
 
-				Seja para consultas, exames ou acompanhamento médico, estamos aqui para garantir que você receba o melhor cuidado, com tecnologia, profissionalismo e dedicação.
+				<br/>Seja para consultas ou acompanhamento médico, estamos aqui para garantir que você receba o melhor cuidado, com tecnologia e profissionalismo.
+				<br/>
 
-				Agende sua consulta e dê o primeiro passo para uma vida mais saudável!
+				<br/>Agende sua consulta e dê o primeiro passo para uma vida mais saudável!
 			</p>
 			<button className={styles.botaoAgendar}>Agendar consulta</button>
 		</div>

@@ -1,10 +1,8 @@
 :root {
-  --foreground: #171717;
-  --azulClaro: #302f68;
-  --roxoEscuro: #27226ace;
+  --foreground: #270d27ce;
+  --azulClaro: #af45afce;
+  --roxoEscuro: #6a226ace;
 }
-
-
 
 html,
 body {

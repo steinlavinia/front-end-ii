@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2em 8em;
+    border-bottom: 2px solid var(--roxoEscuro);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 0.7em;
+    font-weight: 100;
+    color: var(--roxoEscuro);
+    font-size: 1.8rem;
+}
+
+.link_items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.link_items li {
+    margin-right: 2.5em;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.link_items a {
+    color:var(--roxoEscuro);
+    text-decoration: none;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.link_items a:hover {
+    border-color: #fff;
+    color: var(--roxoClaro);
+}
+
+.list {
+    display: none;
+    font-size: 70%;
+    font-weight: 200;
+    border:2px solid var(--roxoEscuro);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    list-style: none; 
+}
+
+.list2 {
+    background: none;
+    border: none;
+    font-size: 100%;
+}
+
+.show {
+    position: absolute;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1em 2em;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .link_items {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .link_items li {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .link_items a {
+        font-size: 1.1rem; 
+        padding: 10px;
+    }
+
+    .list {
+        display: block; 
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1em;
+    }
+
+    .link_items li {
+        font-size: 100%;
+        margin-bottom: 0.8em;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+}

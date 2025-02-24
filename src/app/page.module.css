@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4em ;
+  color: var(--roxoEscuro);
+  
+}
+.info:hover{
+  color: red;
+  border-bottom: 1px solid red;
+}
+  
+.h1{
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.p{
+  font-size: 130%;
+  font-weight: 200;
+}
+.botaoAgendar{
+  cursor: pointer;
+  border: 0;
+  background-color: var(--roxoEscuro);
+  color: #FFFFFF;
+  padding: 20px;
+  margin-top: 2%;
+  font-size: 110%;
+}

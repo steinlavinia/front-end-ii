@@ -43,7 +43,7 @@
 }
 
 .botao:hover {
-    background-color: #af45afce;;
+    background-color: #6a226ace;;
 }
 
 .listaMed {
@@ -80,7 +80,7 @@
 
 .td {
     border: 0px solid var(--roxoEscuro);
-    background-color: #af45afce;
+    background-color: #6a226ace;
     color: #ffffff;
     padding: 12px 20px;
 }

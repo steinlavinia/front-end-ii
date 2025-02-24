@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-	title: "Clínica médica ",
+	title: "Clínica Bem Estar",
 	description: "Front End II",
 	charset: "UTF-8",
 	author: "Lavínia Stein",
